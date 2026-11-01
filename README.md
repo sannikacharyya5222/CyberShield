@@ -1,36 +1,29 @@
 # 🛡️ CyberShield – Personal Cybersecurity Dashboard
 
-CyberShield is a beginner-friendly cybersecurity awareness website designed to help users understand basic online security.
+CyberShield is a beginner-friendly cybersecurity awareness website built to help users understand basic online security.
+
+## 🌐 Live Demo
+https://cybershield-one-xi.vercel.app/
 
 ## ✨ Features
+- Password Strength Checker
+- Suspicious URL Pattern Checker
+- Basic Cybersecurity Tips
+- Clean and responsive user interface
 
-- 🔐 Password Strength Checker
-- 🌐 Suspicious URL Pattern Checker
-- 🛡️ Cybersecurity Awareness Tips
-- 📱 Simple and responsive user interface
-
-## 🧰 Technologies Used
-
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - JavaScript
+- Git & GitHub
+- Vercel
 
-## 🎯 Project Objective
+## 🎯 Project Goal
+The goal of CyberShield is to make basic cybersecurity awareness simple and accessible while developing my frontend web development skills.
 
-The objective of CyberShield is to promote digital safety and introduce users to basic cybersecurity concepts through an interactive frontend website.
+## ⚠️ Disclaimer
+This is an educational frontend demonstration. The URL checker uses basic suspicious-pattern checks and does not provide real phishing detection or security guarantees.
 
 ## 👨‍💻 Developer
+Created as a beginner portfolio project while learning web development and cybersecurity.
 
-**Sannik Acharyya**
-
-First-year CSE (AI & ML) student.
-
-## 🚀 Future Improvements
-
-- More advanced URL analysis
-- Improved password feedback
-- Enhanced responsive design
-
----
-
-*Built as a beginner frontend development project.*
