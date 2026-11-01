@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberShield | Stay Secure Online</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">CyberShield.</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#password">Password Check</a></li>
+                <li><a href="#phishing">URL Check</a></li>
+                <li><a href="#tips">Security Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <p class="tagline">YOUR DIGITAL SAFETY MATTERS</p>
+
+            <h1>Stay Safe in a<br>
+                <span>Digital World.</span>
+            </h1>
+
+            <p class="description">
+                Protect your digital identity with simple
+                cybersecurity tools and smart security habits.
+            </p>
+
+            <a href="#password" class="main-button">
+                Explore Security Tools
+            </a>
+
+        </section>
+
+        <section class="tools" id="password">
+
+            <h2>Security Tools</h2>
+
+            <div class="tool-card">
+                <h3>Password Strength Checker</h3>
+
+                <p>Check how strong your password is.</p>
+
+                <input
+                    type="password"
+                    id="passwordInput"
+                    placeholder="Enter your password"
+                >
+
+                <button id="checkPassword">
+                    Check Password
+                </button>
+
+                <p id="passwordResult"></p>
+            </div>
+
+            <div class="tool-card" id="phishing">
+
+                <h3>Suspicious URL Checker</h3>
+
+                <p>Check a URL for common warning signs.</p>
+
+                <input
+                    type="text"
+                    id="urlInput"
+                    placeholder="Enter a website URL"
+                >
+
+                <button id="checkURL">
+                    Check URL
+                </button>
+
+                <p id="urlResult"></p>
+
+            </div>
+
+        </section>
+
+        <section class="tips" id="tips">
+
+            <h2>Stay Protected Online</h2>
+
+            <div class="tip-container">
+
+                <div class="tip-card">
+                    <h3>Strong Passwords</h3>
+                    <p>Use long, unique passwords for different accounts.</p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>Enable 2FA</h3>
+                    <p>Add an extra layer of protection to your accounts.</p>
+                </div>
+
+                <div class="tip-card">
+                    <h3>Avoid Suspicious Links</h3>
+                    <p>Always verify links before clicking them.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 CyberShield | Built by a Cybersecurity Enthusiast</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
